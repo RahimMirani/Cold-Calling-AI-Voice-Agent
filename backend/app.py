@@ -1,9 +1,9 @@
 import os
 from flask import Flask
 from dotenv import load_dotenv
-from vapi import Vapi # Assuming this is the correct import based on server SDK
+from vapi import Vapi
 
-load_dotenv() # Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 
